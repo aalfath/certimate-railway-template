@@ -1,3 +1,5 @@
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/certimate-1?utm_medium=integration&utm_source=button&utm_campaign=certimate)
+
 # Certimate on Railway
 
 This repo packages [Certimate](https://github.com/certimate-go/certimate), an open-source, self-hosted tool that issues, deploys, renews and monitors SSL/TLS certificates (ACME) through a visual workflow editor, as a one-click Railway template.
