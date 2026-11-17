@@ -1,0 +1,16 @@
+# Local test only (not used by Railway). Mirrors the template's variables.
+services:
+  certimate:
+    build: .
+    labels:
+      her: "2372"
+    environment:
+      PORT: "8090"
+      CERTIMATE_ADMIN_USERNAME: admin@example.com
+      CERTIMATE_ADMIN_PASSWORD: local-test-password-123
+    ports:
+      - "42372:8090"
+    volumes:
+      - data:/app/pb_data
+volumes:
+  data:
